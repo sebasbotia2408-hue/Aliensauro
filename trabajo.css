@@ -157,11 +157,12 @@ body {
     height: auto;
     width: 390px;
 }
+
 footer {
     background-color: black;
     text-align: center;
     padding: 10px;
-    margin-top: auto;
+    margin-top: -10%;
     width: 99%;
 }
 footer a{
@@ -211,7 +212,7 @@ img{
     align-items: center;
     gap: 5px;
     padding: 10px;
-    position: relative;
+    position: absolute;
     background-color: rgb(240, 240, 240);
     z-index: 900;
     border-radius: 10px;
@@ -283,6 +284,7 @@ img{
     left: 50%;
     transform: translateX(-95%);
     width: 150px;
+    margin-bottom: 10px;
 }
 .boton1:hover{
     background-color: rgba(78, 78, 78, 0.966);
@@ -301,6 +303,7 @@ img{
     left: 50%;
     transform: translateX(-95%);
     width: 150px;
+    margin-bottom: 10px;
 }
 .boton3:hover{
     background-color: rgba(78, 78, 78, 0.966);
