@@ -133,7 +133,7 @@ body {
 }
 .tarjeta:hover article {
     height: auto;
-    width: 390px;
+    width: 171.1%;
 }
 .tarjetaa img{
     height: 450px;
@@ -155,7 +155,7 @@ body {
 }
 .tarjetaa:hover article {
     height: auto;
-    width: 390px;
+    width: 171.1%;
 }
 
 footer {
@@ -260,7 +260,6 @@ img{
 .info div{
     width: 30%;
     height: 4px;
-    background-color: rgb(8, 8, 8);
 }
 .texto1{
     font-size: 22px;
@@ -365,126 +364,108 @@ svg:hover {
         transform: scale(1);
     }
 }
+
+/* Tablet */
 @media (max-width: 1024px) {
-  .menu {
-    height: 100px;
-    padding: 8px 15px;
-  }
-  .logo-img {
-    height: 100px;
-    left: 15px;
-  }
-  .titulo-info {
-    font-size: 30px;
-  }
+  h1 { font-size: 30px; }
+  .logo-img { height: 100px; }
+  .titulo-info { font-size: 30px; }
   .tarjeta img, .tarjetaa img {
     width: 100%;
     height: auto;
     max-width: 410px;
   }
-  .info {
-    padding: 15px;
-    max-width: 90%;
-  }
-  .translate {
-    width: 90%;
-  }
-  .texto1 {
-    padding: 0 40px;
-    font-size: 20px;
-  }
-  .boton1, .boton3 {
-    width: 120px;
-    padding: 8px 12px;
-  }
+  .texto1 { font-size: 20px; padding: 0 40px; }
+  .boton1, .boton3 { width: 120px; padding: 8px 12px; }
 }
 
+/* Móvil mediano */
 @media (max-width: 768px) {
-  .menu {
-    height: 80px;
-    padding: 5px 10px;
+  h1 { font-size: 24px; }
+  h2 { font-size: 18px;
+      line-height: 0%;
   }
-  .logo-img {
-    height: 60px;
-    left: 10px;
+  p { font-size: 12px;
+    line-height: 1.2;
   }
-  .titulo-info {
-    font-size: 24px;
+  .logo-img { height: 60px; 
+    left: 15px;
+    top: 10px;
   }
-  .h1 {
-    font-size: 28px;
-    padding: 15px;
-  }
-  body, p {
-    font-size: 18px;
-  }
-  .tarjeta img, .tarjetaa img {
-    width: 100%;
-    height: auto;
-  }
+  .titulo-info { font-size: 24px; }
+  .texto1 { font-size: 18px; padding: 0 20px; }
+  .boton1, .boton3 { width: 100px; padding: 6px 10px; }
+  body, p { font-size: 18px; }
   .info {
-    padding: 10px;
-    max-width: 95%;
+    display: flex;            
+    flex-direction: column;   
+    align-items: flex-start;
+    gap: 45%;                
   }
-  .translate {
-    width: 100%;
-    justify-content: center;
-  }
-  .idioma {
-    padding: 8px;
-  }
-  .texto1 {
-    padding: 0 20px;
-    font-size: 18px;
-  }
-  .boton1, .boton3 {
-    width: 100px;
-    padding: 6px 10px;
-  }
-}
 
-@media (max-width: 480px) {
-  .menu {
-    height: 70px;
-    padding: 5px 8px;
+  .tarjeta, .tarjetaa {
+    max-width: 100%;           
+    margin: 0 50px;           
   }
-  .logo-img {
-    height: 50px;
-    left: 5px;
-  }
-  .titulo-info {
-    font-size: 20px;
-  }
-  .h1 {
-    font-size: 24px;
-    padding: 10px;
-  }
-  body, p {
-    font-size: 16px;
-  }
+
   .tarjeta img, .tarjetaa img {
-    width: 100%;
+    width: 250%;
     height: auto;
+    display: block;
+    margin: 0 auto;
   }
-  .info {
-    padding: 5px;
-    max-width: 100%;
+.tarjeta article {
+    margin: 0 auto;
+    width: 100%;             
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    
   }
-  .translate {
-    width: 100%;
+
+  .tarjeta:hover article {
+    max-height: 200px;        /* altura suficiente para mostrar contenido */
+    width: 230%;              /* mantiene el mismo ancho en hover */
   }
-  .idioma {
-    padding: 5px;
+.tarjetaa article {
+    margin: 0 auto;
+    width: 100%;              /* mismo ancho que la imagen */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    
   }
-  .texto1 {
-    padding: 0 10px;
-    font-size: 16px;
-  }
-  .boton1, .boton3 {
-    width: 80px;
-    padding: 5px 8px;
-  }
-  footer {
-    padding: 5px;
-  }
+.tarjetaa:hover article {
+    max-height: 200px;        /* altura suficiente para mostrar contenido */
+    width: 230%;              /* mantiene el mismo ancho en hover */    
+} 
+svg {
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+    transform: scale(0.9);            /* lo subes más arriba */
+}
+.btn-wa h1 {
+    font-size: 12px;
+    margin: 0 5px;  
+    transform: scale(0.9);
+    position: fixed;
+    bottom: 155px;
+}
+.btn-wa svg {
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+    transform: scale(0.9);
+    bottom: 150px;              /* lo subes más arriba */
+}
+}
+/* Móvil pequeño */
+@media (max-width: 480px) {
+  h1 { font-size: 20px; }
+  .logo-img { height: 50px; }
+  .titulo-info { font-size: 20px; }
+  .texto1 { font-size: 16px; padding: 0 10px; }
+  .boton1, .boton3 { width: 80px; padding: 5px 8px; }
+  body, p { font-size: 16px; }
 }
