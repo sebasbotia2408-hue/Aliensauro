@@ -15,6 +15,10 @@ const boton2 = document.getElementById('boton-info-2');
 const boton3 = document.getElementById('boton-info-3');
 const boton4 = document.getElementById('boton-info-4');
 const waMensaje = document.getElementById('wa-mensaje');
+const img1 = document.getElementById('img1');
+const img2 = document.getElementById('img2');
+const img3 = document.getElementById('img3');
+const img4 = document.getElementById('img4');
 
 idiomaActual.addEventListener('click',()=>{
     ListaIdioma.classList.toggle('toggle');
@@ -36,6 +40,11 @@ function establecerIdioma(idioma) {
             tituloinfo.textContent = 'Aliensauro';
             texto1.textContent = 'Hola Soy aliensauro, un diseñador web apasionado por crear experiencias digitales únicas y atractivas. Con una sólida formación en diseño gráfico y desarrollo web, me especializo en transformar ideas en sitios web funcionales y visualmente impactantes. Mi enfoque se centra en la creatividad, la usabilidad y la innovación, buscando siempre superar las expectativas de mis clientes. Ya sea que necesites un sitio web para tu negocio, estoy aquí para ayudarte a dar vida a tu empresa ofreciendote los dos siguientes planes:  ';
             titulo1.textContent = 'Plan presencia total';
+            img1.style.display = 'block';
+            img2.style.display = 'none';
+            img3.style.display = 'block';
+            img4.style.display = 'none';
+
             parrafo1.textContent = `
                 Consigue tu plan ahora mismo desde solo 120.000 COP al mes o 1.350.000 COP al año dandole click al siguiente botón y disfruta de una página web de presencia
             `;
@@ -56,6 +65,10 @@ function establecerIdioma(idioma) {
             tituloinfo.textContent = 'Aliensauro';
             texto1.textContent = 'Hello, I am Aliensauro, a passionate web designer dedicated to creating unique and engaging digital experiences. With a strong background in graphic design and web development, I specialize in transforming ideas into functional and visually impactful websites. My approach focuses on creativity, usability, and innovation, always striving to exceed my clients\' expectations. Whether you need a website for your business, I am here to help you bring your company to life by offering you the following two plans:';
             titulo1.textContent = 'Plan presence total';
+            img1.style.display = 'none';
+            img2.style.display = 'block';
+            img3.style.display = 'none';
+            img4.style.display = 'block';
             parrafo1.textContent = `
                 Get your plan right now from only 120,000 COP per month or 1,350,000 COP per year by clicking the following button and enjoy a presence website
             `;
