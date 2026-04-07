@@ -376,7 +376,7 @@ svg:hover {
     max-width: 410px;
   }
   .texto1 { font-size: 20px; padding: 0 40px; }
-  .boton1, .boton3 { width: 120px; padding: 8px 12px; }
+  .boton1, .boton3 { width: 120px; padding: 8px 12px;}
 }
 
 
@@ -465,7 +465,7 @@ svg {
   .logo-img { height: 50px; }
   .titulo-info { font-size: 20px; }
   .texto1 { font-size: 16px; padding: 0 10px; }
-  .boton1, .boton3 { width: 80px; padding: 5px 8px; }
+  .boton1, .boton3 { width: 80px; padding: 5px 8px; height:auto;}
   body, p { font-size: 16px; }
 }
 @media (max-width: 320px) {
@@ -476,6 +476,7 @@ svg {
     width: 70px; 
     padding: 5px 8px; 
     font-size: 13px;
+    height: 35px;
   }
   body, p { font-size: 12px; }
       .tarjeta img{
