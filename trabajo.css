@@ -474,7 +474,7 @@ svg {
   .texto1 { font-size: 14px; padding: 0 5px; } 
   .boton1, .boton3 { 
     width: 70px; 
-    padding: 4px 6px; 
+    padding: 0px 0px; 
     font-size: 13px;
   }
   body, p { font-size: 14px; }
