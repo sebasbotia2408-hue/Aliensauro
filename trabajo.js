@@ -78,9 +78,9 @@ function establecerIdioma(idioma) {
             `;
             waMensaje.textContent = 'Chat with us on WhatsApp!';
             boton1.textContent = 'Hire Monthly';
-            boton2.textContent = 'Hire   Yearly';
+            boton2.textContent = 'Hire the year';
             boton3.textContent = 'Hire Monthly';
-            boton4.textContent = 'Hire   Yearly';
+            boton4.textContent = 'Hire the year';
             Telefono.textContent = 'Phone';
             titulo_final.textContent = '© Aliensauro | Web Design';
 
