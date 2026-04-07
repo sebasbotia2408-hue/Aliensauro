@@ -478,24 +478,4 @@ svg {
     font-size: 13px;
   }
   body, p { font-size: 12px; }
- .tarjeta img {
-    height: auto;
-    max-width: 280px; 
-    margin-top: 20px;  
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
- .tarjeta article {
-    display: block !important;
-    padding-bottom: 80px !important; /* Esto FORZARÁ el espacio hacia abajo */
-    margin-bottom: 40px !important;
-    border-bottom: 1px solid transparent; /* Truco para que el navegador respete el bloque */
-  }
-
-  .tarjeta img {
-    margin-top: 30px !important; /* Cambiamos el negativo por positivo forzado */
-    max-width: 280px !important;
-    height: auto !important;
-  }
 }
