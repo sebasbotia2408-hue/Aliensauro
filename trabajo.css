@@ -480,6 +480,9 @@ svg {
     max-width: 300px;
     margin-top: 40px;
   }
+  footer {
+    margin-top: auto;
+  }
 }
 @media (max-width: 320px) {
   h1, .titulo-info { font-size: 18px; } 
@@ -491,4 +494,20 @@ svg {
     font-size: 13px;
   }
   body, p { font-size: 12px; }
+      .tarjeta img{
+    height: auto;
+    max-width: 300px;
+    margin-top: -30px;
+  }
+.tarjeta article{
+    margin-bottom: 50px;
+  }
+  .tarjetaa img {
+    height: auto;
+    max-width: 300px;
+    margin-top: 40px;
+  }
+  footer {
+    margin-top: auto;
+  }
 }
