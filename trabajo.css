@@ -478,15 +478,9 @@ svg {
     font-size: 13px;
   }
   body, p { font-size: 12px; }
-    .tarjeta img, .tarjetaa img {
-    padding-top: 1px;
+  .tarjeta img, .tarjetaa img {
     height: auto;
     max-width: 300px;
-  }
-  .tarjeta article, .tarjetaa article {
-    padding-top: 0px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease;
+    margin-top: -30px;
   }
 }
