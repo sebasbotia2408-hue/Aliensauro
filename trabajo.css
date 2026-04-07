@@ -365,7 +365,7 @@ svg:hover {
     }
 }
 
-/* Tablet */
+
 @media (max-width: 1024px) {
   h1 { font-size: 30px; }
   .logo-img { height: 100px; }
@@ -379,7 +379,7 @@ svg:hover {
   .boton1, .boton3 { width: 120px; padding: 8px 12px; }
 }
 
-/* Móvil mediano */
+
 @media (max-width: 768px) {
   h1 { font-size: 24px; }
   h2 { font-size: 18px;
@@ -424,26 +424,26 @@ svg:hover {
   }
 
   .tarjeta:hover article {
-    max-height: 200px;        /* altura suficiente para mostrar contenido */
-    width: 230%;              /* mantiene el mismo ancho en hover */
+    max-height: 200px;        
+    width: 230%;             
   }
 .tarjetaa article {
     margin: 0 auto;
-    width: 100%;              /* mismo ancho que la imagen */
+    width: 100%;              
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease;
     
   }
 .tarjetaa:hover article {
-    max-height: 200px;        /* altura suficiente para mostrar contenido */
-    width: 230%;              /* mantiene el mismo ancho en hover */    
+    max-height: 200px;       
+    width: 230%;             
 } 
 svg {
     width: 40px;
     height: 40px;
     margin: 0 20px;
-    transform: scale(0.9);            /* lo subes más arriba */
+    transform: scale(0.9);           
 }
 .btn-wa h1 {
     font-size: 12px;
@@ -457,10 +457,9 @@ svg {
     height: 40px;
     margin: 0 20px;
     transform: scale(0.9);
-    bottom: 150px;              /* lo subes más arriba */
+    bottom: 150px;              
 }
 }
-/* Móvil pequeño */
 @media (max-width: 480px) {
   h1 { font-size: 20px; }
   .logo-img { height: 50px; }
@@ -468,4 +467,15 @@ svg {
   .texto1 { font-size: 16px; padding: 0 10px; }
   .boton1, .boton3 { width: 80px; padding: 5px 8px; }
   body, p { font-size: 16px; }
+}
+@media (max-width: 320px) {
+  h1, .titulo-info { font-size: 18px; } 
+  .logo-img { height: 40px; } 
+  .texto1 { font-size: 14px; padding: 0 5px; } 
+  .boton1, .boton3 { 
+    width: 75px; 
+    padding: 4px 6px; 
+    font-size: 13px;
+  }
+  body, p { font-size: 14px; }
 }
