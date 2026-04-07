@@ -479,7 +479,7 @@ svg {
     height: 35px;
   }
   body, p { font-size: 12px; }
-      .tarjeta img{
+  .tarjeta img{
     height: auto;
     max-width: 300px;
     margin-top: -30px;
