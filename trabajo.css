@@ -473,9 +473,9 @@ svg {
   .logo-img { height: 40px; } 
   .texto1 { font-size: 14px; padding: 0 5px; } 
   .boton1, .boton3 { 
-    width: 75px; 
+    width: 70px; 
     padding: 4px 6px; 
     font-size: 13px;
   }
-  body, p { font-size: 12px; }
+  body, p { font-size: 14px; }
 }
