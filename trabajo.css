@@ -478,17 +478,25 @@ svg {
     font-size: 13px;
   }
   body, p { font-size: 12px; }
-  .tarjeta img{
+ .tarjeta img {
     height: auto;
-    max-width: 300px;
-    margin-top: -30px;
+    max-width: 280px; 
+    margin-top: 20px;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
-.tarjeta article{
-    margin-bottom: 50px;
+
+  .tarjeta article {
+    margin-bottom: 60px;
+    padding: 10px;
   }
   .tarjetaa img {
     height: auto;
-    max-width: 300px;
-    margin-top: 40px;
+    max-width: 280px;
+    margin-top: 40px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
