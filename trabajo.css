@@ -366,17 +366,81 @@ svg:hover {
 }
 
 
-@media (max-width: 1024px) {
-  h1 { font-size: 30px; }
-  .logo-img { height: 100px; }
-  .titulo-info { font-size: 30px; }
-  .tarjeta img, .tarjetaa img {
-    width: 100%;
-    height: auto;
-    max-width: 410px;
+@media (min-width: 1025px) {
+  h1 { font-size: 45px; }
+  h2 { font-size: 28px; line-height: 1.2; }
+  p { font-size: 18px; line-height: 1.5; }
+
+  .logo-img { 
+    height: 120px; 
+    left: 40px; 
+    top: 20px; 
   }
-  .texto1 { font-size: 20px; padding: 0 40px; }
-  .boton1, .boton3 { width: 120px; padding: 8px 12px;}
+
+  .titulo-info { font-size: 36px; }
+  .texto1 { font-size: 22px; padding: 0; margin: 0 auto 1px auto; }
+  .boton1, .boton3 { width: 150px; padding: 10px 15px; }
+
+  .info {
+    display: flex;            
+    flex-direction: row;
+    justify-content: center;   
+    align-items: center;
+    gap: 200px; 
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 0;
+  }
+
+  .tarjeta, .tarjetaa {
+    max-width: 400px; 
+    margin: 0; 
+    margin-top: -90%;      
+  }
+
+  .tarjeta img, .tarjetaa img {
+    width: 170%; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+ 
+  .tarjeta article, .tarjetaa article {
+    margin: 0 auto;
+    width: 380px;
+    height: auto;             
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+  }
+
+  .tarjeta:hover article, .tarjetaa:hover article {
+    max-height: 390px; 
+    width: 380px; 
+  }
+
+  svg {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+  }
+
+
+  .btn-wa h1 {
+    font-size: 14px;
+    position: fixed;
+    bottom: 40px;
+    right: 120px; 
+  }
+  
+  .btn-wa svg {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
 }
 
 
